@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMATCHA&CO.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">WMATCHA&CO.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Our Journey</a>
+            <a href="#skills">Our Values</a>
+            <a href="#heritage">Company</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+
+        <a href="index.html" class="lang-btn">日本語</a>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <!-- Video Background -->
+        <div class="home-video-container">
+            <video class="home-video-bg" autoplay muted loop playsinline>
+                <source src="images/wmatcha-video.mp4" type="video/mp4">
+            </video>
+            <div class="home-video-overlay"></div>
+        </div>
+
+        <div class="home-content">
+            <h1>Welcome to <span>WMATCHA&CO.</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>From Wazuka to the World</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>WMATCHA & CO. is not a company that merely sells matcha. It is a company that reimagines culture, industry, and spirituality—through tea. Rooted in KANECHU, our ancestral tea house in Wazuka, Kyoto, we exist to return matcha to the center of global culture as a force of meaning, not mere consumption. We gather those who refuse compromise—those who choose clarity over noise, substance over hype, and purity over convenience.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="https://www.wtea-directtrade.com/blogs/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9" class="btn">Discover Our Story</a>
+                <a href="#contact" class="btn">Connect With Us</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.instagram.com/supermatchabros/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/company/wmatcha-co-llc/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Us</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="images/us.png" alt="KANECHU tea house, Wazuka" draggable="false">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Why hasn't an iconic matcha brand emerged from Japan?<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>In gaming, there is Nintendo. In automobiles, Toyota. In sake, Dassai. Across industries, Japan has created brands that transcended their categories and became global standards. They did not merely export products—they exported values. But when it comes to matcha, something feels unfinished. This question is the beginning of WMATCHA & CO. Founded from an unresolved tension between Japan's cultural depth and matcha's loss of voice in global markets, we exist to restore what modern life takes away.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box btns">
+                <a href="#contact" class="btn">Contact Us</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">Our <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Philosophy<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-leaf'></i> W - Wazuka</div>
+                            <h3>Wazuka & Wa - Harmony</h3>
+                            <p>W stands for Wazuka, a land where tea has never been an industry alone, but a way of life. It also represents wa—the circle that connects people—and harmony itself. From this sacred ground, we carry forward a lineage preserved across generations.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-sun'></i> M - Maitreya</div>
+                            <h3>Renewal & Restoration</h3>
+                            <p>M refers to Maitreya, the future Buddha—a symbol not of religion, but of renewal, restoration, and purity of heart. What if matcha could restore what modern life takes away? Not as stimulation, but as a culture that returns people to themselves.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-heart'></i> Magokoro (忠)</div>
+                            <h3>Sincerity & Wholehearted Devotion</h3>
+                            <p>"Chu" (忠) can also be read as Magokoro — sincerity, or wholehearted devotion. As I care for the tea fields entrusted to me by previous generations, I continue to reflect on how a life lived with sincerity should be expressed through tea, and how those leaves can flow beautifully into society.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Our Initiatives<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-store'></i> Brand</div>
+                            <h3>WMATCHA & CO. - Wholesale & Culture</h3>
+                            <p>A company engaged in wholesale and cultural initiatives, dedicated to creating an iconic Japanese tea brand that exports values, not just products. Leading a new era through tea, from our ancestral tea house KANECHU in Wazuka, Kyoto.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-link'></i> Platform</div>
+                            <h3><a href="https://www.wtea-directtrade.com/" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">WTEA</a> - Direct Trade Revolution</h3>
+                            <p>The world's first direct trade platform dedicated to Japanese tea. <a href="https://www.wtea-directtrade.com/" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">WTEA</a> enables direct transactions starting from just one kilogram, restoring fairness by removing non-producing middle layers. Producers regain ownership of their work, pricing, and future.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-globe'></i> Impact</div>
+                            <h3>Industry Transformation</h3>
+                            <p>Reshaping the structure of the tea industry by supporting aging farmers, creating transparent pricing in an inflating market, and connecting those who protect the diversity of Japanese tea. True tea lovers do not speculate. They participate.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <!-- Video Background for Skills Section -->
+        <div class="skills-video-container">
+            <video class="skills-video-bg" autoplay muted loop playsinline>
+                <source src="images/1.mp4" type="video/mp4">
+            </video>
+            <div class="skills-video-overlay"></div>
+        </div>
+
+        <h2 class="heading">Our <span>Values</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Core Principles<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Authenticity <span>100%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Cultural Depth <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Discipline & Restraint <span>98%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Innovation <span>92%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Our Approach<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Transparency <span>100%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Producer Empowerment <span>97%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Quality Standards <span>99%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Sustainability <span>96%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         NEW: Company / Heritage sections
+         Heritage → Mission → Wazuka → Team
+         ============================================ -->
+
+    <!-- Heritage -->
+    <section class="heritage-section" id="heritage">
+        <div class="heritage-inner">
+            <span class="heritage-eyebrow">Company</span>
+            <h2 class="heritage-title">Heritage</h2>
+
+            <div class="heritage-grid">
+                <div class="heritage-media">
+                    <img src="images/Kanechu.png" alt="KANECHU tea house, Wazuka" draggable="false">
+                    <span class="media-caption">KANECHU · Wazuka, Kyoto</span>
+                </div>
+                <div class="heritage-copy">
+                    <p>The roots of WMATCHA&CO. trace back to KANECHU (カネ忠), a family tea house once tended by Toshi's ancestors in Wazuka, Kyoto.</p>
+                    <p>After studying and working abroad, Toshi rediscovered the value of Japanese culture through the eyes of the world. An interest in matcha grew into a commitment — to preserve tea-growing communities, and to carry forward the legacy entrusted to his generation.</p>
+                    <p>Today, WMATCHA&CO. tends its own fields in Wazuka while learning cultivation directly from leading producers, seeking not only to inherit tea culture, but to build a future in which it continues to thrive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="heritage-section" id="mission">
+        <div class="heritage-inner">
+            <span class="heritage-eyebrow">Our Why</span>
+            <h2 class="heritage-title">Mission</h2>
+
+            <div class="mission-copy">
+                <p class="mission-question">How can Japanese tea survive for the next hundred years?</p>
+                <p>While global demand for matcha continues to grow, tea-producing regions face aging farmers, labor shortages, abandoned fields, and a dwindling number of successors. At the same time, consumers grow ever more distant from the people and places behind what they drink.</p>
+                <p>We believe tea is more than a commodity. It is the result of generations of knowledge, craftsmanship, and stewardship of the land.</p>
+                <p>Our mission is to reconnect producers and consumers — building a future where tea is valued not only for its flavor, but for the people, culture, and landscapes behind it. Through WMATCHA and WTEA, we work toward a more transparent, sustainable, and narrative-driven tea industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="heritage-section" id="team">
+        <div class="heritage-inner">
+            <span class="heritage-eyebrow">Who We Are</span>
+            <h2 class="heritage-title">Team & Organization</h2>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Toshi.png" alt="Toshiya Taketani" draggable="false"></div>
+                    <div class="team-name">Toshiya Taketani</div>
+                    <div class="team-role">Re-founder</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Shohei.png" alt="Shohei Asaki" draggable="false"></div>
+                    <div class="team-name">Shohei Asaki</div>
+                    <div class="team-role">Co-founder</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Taiyo.png" alt="Taiyo Inukai" draggable="false"></div>
+                    <div class="team-name">Taiyo Inukai</div>
+                    <div class="team-role">CPO</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">MD</div>
+                    <div class="team-name">Manon Deplancke</div>
+                    <div class="team-role">Community Lead</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Ilham.png" alt="Ilham Baramika" draggable="false"></div>
+                    <div class="team-name">Ilham Baramika</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Megumi.png" alt="Megumi Sasaki" draggable="false"></div>
+                    <div class="team-name">Megumi Sasaki</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Rafi（Muhammad Rafsanjani）.png" alt="Muhammad Rafsanjani" draggable="false"></div>
+                    <div class="team-name">Muhammad Rafsanjani</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">GA</div>
+                    <div class="team-name">Ghiyas Alfiann</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/me3.jpeg" alt="Shafaq Ali" draggable="false"></div>
+                    <div class="team-name">Shafaq Ali</div>
+                    <div class="team-role">Developer</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Nicole.png" alt="Nicole Egorova" draggable="false"></div>
+                    <div class="team-name">Nicole Egorova</div>
+                    <div class="team-role">Photographer</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Yassmin.png" alt="Yassmin Mahmoud" draggable="false"></div>
+                    <div class="team-name">Yassmin Mahmoud</div>
+                    <div class="team-role">Product Designer</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">PS</div>
+                    <div class="team-name">Paula Segado</div>
+                    <div class="team-role">Video Creator</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 | WMATCHA & CO. | From Wazuka to the World | All Rights Reserved</p>
+            <p style="margin-top: 1rem;">
+                <span class="footer-links">
+                    <a href="https://maps.app.goo.gl/eJJvnjNFaBcsq2J5A" target="_blank">
+                        <i class='bx bx-map-pin'></i> Location
+                    </a>
+                    <a href="https://www.wtea-directtrade.com/" target="_blank">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 9h13a1 1 0 0 1 1 1c0 3.87-3.13 7-7 7H8a4 4 0 0 1-4-4V9Z"></path>
+                            <path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path>
+                            <path d="M7 4c-.7.9-.7 1.7 0 2.6M11 4c-.7.9-.7 1.7 0 2.6"></path>
+                        </svg>
+                        WTEA Platform
+                    </a>
+                </span>
+            </p>
+            <span class="footer-credit">Design & Development by <a href="https://shafaq0410.github.io/Shafaq/" target="_blank">Shafaq Ali</a></span>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+    <!-- Black & White Quote Button (Yarn Ball) -->
+    <div class="bamboo-container" id="bambooTrigger">
+        <div class="bamboo-icon"></div>
+    </div>
+
+    <div class="quote-overlay" id="quoteOverlay">
+        <div class="quote-content">
+            <p class="quote-text" id="quoteText">
+                Meanwhile, let us have a sip of tea. The afternoon glow is brightening the bamboos, the fountains are bubbling with delight, the soughing of the pines is heard in our kettle. Let us dream of evanescence, and linger in the beautiful foolishness of things.
+            </p>
+            <p class="quote-author">— Okakura Kakuzō, The Book of Tea</p>
+        </div>
+        <p class="close-hint">Click anywhere to close</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

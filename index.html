@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMATCHA&CO.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">WMATCHA&CO.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">ホーム</a>
+            <a href="#about">私たちについて</a>
+            <a href="#education">私たちの歩み</a>
+            <a href="#skills">私たちの価値観</a>
+            <a href="#heritage">会社情報</a>
+            <a href="#contact">お問い合わせ</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+
+        <a href="index1.html" class="lang-btn">English</a>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <!-- Video Background -->
+        <div class="home-video-container">
+            <video class="home-video-bg" autoplay muted loop playsinline>
+                <source src="images/wmatcha-video.mp4" type="video/mp4">
+            </video>
+            <div class="home-video-overlay"></div>
+        </div>
+
+        <div class="home-content">
+            <h1>ようこそ <span>WMATCHA&CO.</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>和束から世界へ</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Wmatcha & co.は、単に抹茶を販売する会社ではありません。お茶を通じて、文化、産業、精神性を再構想する会社です。京都・和束にある私たちの先祖代々の茶屋「かね忠」に根ざし、抹茶を単なる消費ではなく、意味のある力として世界文化の中心に戻すために存在しています。私たちは妥協を拒む人々、騒音よりも明晰さを、誇大広告よりも本質を、利便性よりも純粋さを選ぶ人々を集めています。
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="https://www.wtea-directtrade.com/blogs/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9" class="btn">私たちのストーリーを見る</a>
+                <a href="#contact" class="btn">お問い合わせ</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.instagram.com/supermatchabros/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/company/wmatcha-co-llc/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">私たち<span>について</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="images/us.png" alt="和束茶屋、京都かね忠 茶屋、和束" draggable="false">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>なぜ日本から象徴的な抹茶ブランドが生まれていないのか？<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>ゲームには任天堂があり、自動車にはトヨタがあります。日本酒には獺祭があります。あらゆる業界で、日本はそのカテゴリーを超え、グローバルスタンダードとなったブランドを生み出してきました。彼らは単に製品を輸出したのではなく、価値観を輸出したのです。しかし、抹茶に関しては、何か未完成な感じがします。この問いがWmatcha & co.の始まりです。日本の文化的深さと、グローバル市場における抹茶の声の喪失との間の未解決の緊張から生まれた私たちは、現代生活が奪うものを取り戻すために存在しています。
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box btns">
+                <a href="#contact" class="btn">お問い合わせ</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">私たちの<span>歩み</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">フィロソフィー<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-leaf'></i> W - 和束</div>
+                            <h3>和束と和 - ハーモニー</h3>
+                            <p>Wは和束を表します。お茶が単なる産業ではなく、生き方であり続けてきた土地です。また、人々を繋ぐ円である「和」、そして調和そのものを表しています。この神聖な地から、私たちは世代を超えて守られてきた系譜を受け継いでいます。</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-sun'></i> M - 弥勒</div>
+                            <h3>再生と回復</h3>
+                            <p>Mは弥勒、未来の仏を指します。これは宗教のシンボルではなく、再生、回復、そして心の純粋さの象徴です。抹茶が現代生活が奪うものを取り戻すことができたら？刺激としてではなく、人々を自分自身に戻す文化として。</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-heart'></i> 真心（忠）</div>
+                            <h3>誠実さと全力の献身</h3>
+                            <p>「忠」は真心とも読め、誠実さや全力の献身を意味します。先人から託された茶畑を守りながら、誠実に生きるということがお茶を通じてどのように表れるべきか、そしてその葉がいかに美しく社会へと流れていくかを、日々問い続けています。</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">私たちの取り組み<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-store'></i> ブランド</div>
+                            <h3>Wmatcha & co. - 卸売と文化</h3>
+                            <p>卸売と文化活動に従事する会社として、製品だけでなく価値観を輸出する象徴的な日本茶ブランドの創造に専念しています。京都・和束の先祖代々の茶屋「かね忠」から、日本茶を通じて新しい時代をリードしています。</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-link'></i> プラットフォーム</div>
+                            <h3><a href="https://www.wtea-directtrade.com/" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">WTEA</a> - 直接取引革命</h3>
+                            <p>日本茶に特化した世界初の直接取引プラットフォーム。<a href="https://www.wtea-directtrade.com/" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">WTEA</a>は、わずか1キログラムから直接取引を可能にし、非生産的な中間層を排除することで公平性を回復します。生産者は自分の仕事、価格設定、そして未来の所有権を取り戻します。</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-globe'></i> インパクト</div>
+                            <h3>産業変革</h3>
+                            <p>高齢化する農家を支援し、インフレ市場における透明な価格設定を実現し、日本茶の多様性を守る人々を繋ぐことで、茶産業の構造を再構築しています。真のお茶の愛好家は投機しません。参加するのです。</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <!-- Video Background for Skills Section -->
+        <div class="skills-video-container">
+            <video class="skills-video-bg" autoplay muted loop playsinline>
+                <source src="images/1.mp4" type="video/mp4">
+            </video>
+            <div class="skills-video-overlay"></div>
+        </div>
+
+        <h2 class="heading">私たちの<span>価値観</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">核となる原則<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>真正性 <span>100%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>文化的深さ <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>規律と自制 <span>98%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>革新 <span>92%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">私たちのアプローチ<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>透明性 <span>100%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>生産者のエンパワーメント <span>97%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>品質基準 <span>99%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>持続可能性 <span>96%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         NEW: 会社情報セクション
+         沿革 → ミッション → 和束 → チーム
+         ============================================ -->
+
+    <!-- Heritage -->
+    <section class="heritage-section" id="heritage">
+        <div class="heritage-inner">
+            <span class="heritage-eyebrow">Company</span>
+            <h2 class="heritage-title">沿革</h2>
+
+            <div class="heritage-grid">
+                <div class="heritage-media">
+                    <img src="images/Kanechu.png" alt="かね忠 茶屋、和束" draggable="false">
+                    <span class="media-caption">かね忠 · 京都府和束町</span>
+                </div>
+                <div class="heritage-copy">
+                    <p>WMATCHA&CO.のルーツは、かつてToshiの祖先が京都・和束で営んでいた茶屋「カネ忠」に遡ります。</p>
+                    <p>海外での学びと仕事を経て、Toshiは世界の視点から改めて日本文化の価値を再発見しました。抹茶への関心は、茶産地を守り、この世代に託された遺産を受け継ぐという決意へと育っていきました。</p>
+                    <p>現在、WMATCHA&CO.は和束に自社の茶畑を持ちながら、一流の生産者から直接栽培を学んでいます。生産・貿易・文化体験を通じて、茶文化を受け継ぐだけでなく、それが未来へと続いていく道を築いています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="heritage-section" id="mission">
+        <div class="heritage-inner">
+            <span class="heritage-eyebrow">Our Why</span>
+            <h2 class="heritage-title">ミッション</h2>
+
+            <div class="mission-copy">
+                <p class="mission-question">日本茶は、これから先の百年をどう生き抜くのか。</p>
+                <p>世界的な抹茶需要が高まる一方で、産地では農家の高齢化、労働力不足、耕作放棄地の増加、後継者の減少が進んでいます。同時に、消費者は自分が口にするものの背景にある人や場所から、ますます遠ざかっています。</p>
+                <p>私たちは、お茶が単なる商品ではないと信じています。それは、何世代にもわたる知恵と技術、そして土地を守り続けてきた営みの結晶です。</p>
+                <p>私たちの使命は、生産者と消費者を再び繋ぐこと。お茶がその味わいだけでなく、その背景にある人々、文化、風景とともに評価される未来を築くことです。WmatchaとWTEAを通じて、より透明で、持続可能で、物語性のある茶産業を目指しています。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="heritage-section" id="team">
+        <div class="heritage-inner">
+            <span class="heritage-eyebrow">Who We Are</span>
+            <h2 class="heritage-title">チーム・組織</h2>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Toshi.png" alt="竹谷 俊哉" draggable="false"></div>
+                    <div class="team-name">竹谷 俊哉</div>
+                    <div class="team-role">Re-founder</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Shohei.png" alt="Shohei Asaki" draggable="false"></div>
+                    <div class="team-name">Shohei Asaki</div>
+                    <div class="team-role">Co-founder</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Taiyo.png" alt="Taiyo Inukai" draggable="false"></div>
+                    <div class="team-name">Taiyo Inukai</div>
+                    <div class="team-role">CPO</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">MD</div>
+                    <div class="team-name">Manon Deplancke</div>
+                    <div class="team-role">Community Lead</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Ilham.png" alt="Ilham Baramika" draggable="false"></div>
+                    <div class="team-name">Ilham Baramika</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Megumi.png" alt="Megumi Sasaki" draggable="false"></div>
+                    <div class="team-name">Megumi Sasaki</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Rafi（Muhammad Rafsanjani）.png" alt="Muhammad Rafsanjani" draggable="false"></div>
+                    <div class="team-name">Muhammad Rafsanjani</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">GA</div>
+                    <div class="team-name">Ghiyas Alfiann</div>
+                    <div class="team-role">Sales</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/me3.jpeg" alt="Shafaq Ali" draggable="false"></div>
+                    <div class="team-name">Shafaq Ali</div>
+                    <div class="team-role">Developer</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Nicole.png" alt="Nicole Egorova" draggable="false"></div>
+                    <div class="team-name">Nicole Egorova</div>
+                    <div class="team-role">Photographer</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar"><img src="images/Yassmin.png" alt="Yassmin Mahmoud" draggable="false"></div>
+                    <div class="team-name">Yassmin Mahmoud</div>
+                    <div class="team-role">Product Designer</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">PS</div>
+                    <div class="team-name">Paula Segado</div>
+                    <div class="team-role">Video Creator</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">お問い合わせ<span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="お名前" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="メールアドレス" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="電話番号" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="件名" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="メッセージ" required></textarea>
+                <span class="focus"></span>
+
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">送信</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 | Wmatcha & Co. | 和束から世界へ | All Rights Reserved</p>
+            <p style="margin-top: 1rem;">
+                <span class="footer-links">
+                    <a href="https://maps.app.goo.gl/eJJvnjNFaBcsq2J5A" target="_blank">
+                        <i class='bx bx-map-pin'></i> 所在地
+                    </a>
+                    <a href="https://www.wtea-directtrade.com/" target="_blank">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 9h13a1 1 0 0 1 1 1c0 3.87-3.13 7-7 7H8a4 4 0 0 1-4-4V9Z"></path>
+                            <path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path>
+                            <path d="M7 4c-.7.9-.7 1.7 0 2.6M11 4c-.7.9-.7 1.7 0 2.6"></path>
+                        </svg>
+                        WTEAプラットフォーム
+                    </a>
+                </span>
+            </p>
+            <span class="footer-credit">Design & Development by <a href="https://shafaq0410.github.io/Shafaq/" target="_blank">Shafaq Ali</a></span>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+    <!-- Black & White Quote Button (Yarn Ball) -->
+    <div class="bamboo-container" id="bambooTrigger">
+        <div class="bamboo-icon"></div>
+    </div>
+
+    <div class="quote-overlay" id="quoteOverlay">
+        <div class="quote-content">
+            <p class="quote-text" id="quoteText">
+                その間に、お茶を一口いただきましょう。午後の光が竹を照らし、泉は喜びで泡立ち、松のざわめきが私たちの釜に聞こえます。儚さを夢見て、物事の美しい愚かさに留まりましょう。
+            </p>
+            <p class="quote-author">— 岡倉覚三『茶の本』</p>
+        </div>
+        <p class="close-hint">クリックして閉じる</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
